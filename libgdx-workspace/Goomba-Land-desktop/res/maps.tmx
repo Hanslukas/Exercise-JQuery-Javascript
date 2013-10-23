@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="world2" tilewidth="32" tileheight="32">
+  <image source="world2.png" width="900" height="563"/>
+  <tile id="425">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="430">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="448">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="477" name="Block" tilewidth="32" tileheight="32">
+  <image source="Block.png" width="204" height="136"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="501" name="Fungo" tilewidth="32" tileheight="32">
+  <image source="Fungo.png" width="600" height="600"/>
+ </tileset>
+ <tileset firstgid="825" name="Goomba" tilewidth="32" tileheight="32">
+  <image source="Goomba.png" width="34" height="34"/>
+ </tileset>
+ <layer name="Sky" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJylyssNgkAYReGfDgS1C0DtQlG7ENQufHahqBVMG5SAAl3ga+dZaGImmWQSFl9yc3ILESlRIccVNxQW/YkX3qhxx8Oytx2RDrpowYXn2PUe+hjAR6DtUNv//zEmmGKIESLLPscCS8wQIzF0pfUtdthjhTU2WleGfsIZFxxwRPrtytB/f9VA1sAHtsNRcw==
+  </data>
+ </layer>
+</map>
